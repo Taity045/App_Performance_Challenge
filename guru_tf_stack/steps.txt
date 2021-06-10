@@ -25,3 +25,6 @@ pip install flask configparser psycogy2
 >>> client.ping()  
 
 export APP_URL=http://54.175.205.97/app
+
+sudo apt-get install libssl1.0.0/trusty libssl-dev/trusty openssl/trusty
+
