@@ -9,4 +9,4 @@ wget https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_linux_amd64.
 
 unzip 
 
-challenge.cl9ixpihter5.us-east-1.rds.amazonaws.com
+https://github.com/linuxacademy/content-aws-database-specialty/tree/master/S08_Using%20Elasticache%20to%20Improve%20Database%20Performance
