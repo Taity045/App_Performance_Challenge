@@ -1,1 +1,21 @@
 1. retrive rds endpoint name
+
+2 export hostname  # export PGHOST = (endpoint)
+ "echo $PGHOST)
+
+#Ensure you can connect to the database with the command below and enter in the bastion password:<br>
+3. psql -U postgres -h $PGHOST
+
+#Quit with \q
+
+#Install the SQL files for the application
+4.psql -U postgres -h $PGHOST -f app.sql
+
+
+#Specify the Python version for the application
+5.python3 app.py
+
+>>> import redis
+>>> client = redis.Redis.from_url('redis://<PrimaryEndpoint>')
+>>> client.ping()  
+

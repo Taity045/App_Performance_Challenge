@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2" {
-  ami           = "ami-0aeeebd8d2ab47354"
-  subnet_id     = "subnet-09ea1673353bea787"
+  ami           = "ami-0747bdcabd34c712a"
+  subnet_id     = "subnet-0d19fafbe38611c2d"
   instance_type = "t2.micro"
   tags = {
     Name = "web-server"
