@@ -1,0 +1,3 @@
+https://www.linkedin.com/pulse/flask-api-python-deployment-nginx-aws-ec2-abirlal-biswas
+
+https://stackoverflow.com/questions/36990299/terraform-aws-credentials-file-not-found
