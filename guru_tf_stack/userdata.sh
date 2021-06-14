@@ -25,3 +25,17 @@ amazon-linux-extras install postgresql11 -y
 sudo amazon-linux-extras install nginx1 -y
 sudo ystemctl start nginx
 sudo systemctl enable nginx
+
+
+// USER DATA
+    provisioner "file" {
+        source = "userdata.sh"
+        destination = "/tmp/userdata.sh"
+    }
+
+    provisioner "remote-exec" {
+        inline = [
+            "chmod +x /tmp/userdata.sh",
+            "sudo /tmp/userdata.sh"
+        ]
+    }
